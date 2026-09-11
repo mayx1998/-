@@ -1,0 +1,13 @@
+arvix/
+tests/
+__pycache__/
+.pytest_cache/
+.idea/
+*.json.bak
+arxiv_cache.json
+embed_cache.json
+user_memory.json
+eval_results*.json
+chroma_db/
+Dockerfile
+.dockerignore

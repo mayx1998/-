@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境（本项目内嵌的venv，不进仓库）
+arvix/
+
+# IDE
+.idea/
+.vscode/
+
+# 运行时生成的数据（缓存/记忆/评测结果）
+arxiv_cache.json
+embed_cache.json
+user_memory.json
+user_memory.json.bak
+eval_results.json
+eval_results_prev.json
+
+# 历史残留
+chroma_db/
+
+# 系统文件
+.DS_Store
+Thumbs.db
