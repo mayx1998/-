@@ -1,0 +1,22 @@
+# 核心框架
+langchain==1.4.0
+langchain-core==1.6.2
+langchain-community==0.4.2
+langchain-openai==1.6.0
+langchain-text-splitters==1.1.2
+langgraph==1.2.11
+
+# LLM / Embedding（阿里云百炼）
+dashscope==1.27.4
+openai==3.8.0
+
+# API 服务
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+pydantic==2.13.5
+
+# 工具
+numpy==2.5.2
+
+# 测试
+pytest==9.1.1
